@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="apitesting.WeatherGetRequest"/>
+      <class name="com.employee.testcases.GetEmployeeAllDetails"/>
+      <class name="test.testExamples"/>
+      <class name="test.PutPatchDelete"/>
+      <class name="com.employee.testcases.CreateEmployee"/>
+      <class name="test.testGet"/>
+      <class name="com.employee.testcases.deleteEmp"/>
+      <class name="test.TestsExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
